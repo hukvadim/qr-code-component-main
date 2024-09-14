@@ -33,6 +33,8 @@ body {
 	font-family: var(--font-family);
 }
 
+.attribution { display: none;}
+
 .card-qr-code {
 	max-width: 320px;
 	background-color: #fff;
