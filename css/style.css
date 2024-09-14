@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+	--font-family: "Outfit", sans-serif;
+	--color-slate-900: #1f314f;
+	--color-slate-500: #68778d;
+	--color-slate-300: #d5e1ef;
+	--color-white: #fff;
+	--color-blue-600: #2c7dfa;
+	--color-blue-500: #3685ff;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #D5E1EF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+	font-family: var(--font-family);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.card-qr-code {
+	max-width: 320px;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 20px;
+	padding: 16px 16px 40px 16px;
+}
+.card-qr-code__img-hold {
+}
+.card-qr-code__img {
+	width: 100%;
+	border-radius: 10px;
+}
+.card-qr-code__title {	font-weight: 700;
+	font-size: 22px;
+	line-height: 120%;
+	color: var(--color-slate-900);
+	margin: 20px 0 15px;
+}
+.card-qr-code__under-title {	font-weight: 400;
+	font-size: 15px;
+	line-height: 140%;
+	letter-spacing: 0.01em;
+	color: var(--color-slate-500);
+	padding: 0 10px;
+}
