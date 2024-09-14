@@ -39,6 +39,7 @@ body {
 	text-align: center;
 	border-radius: 20px;
 	padding: 16px 16px 40px 16px;
+	box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
 }
 .card-qr-code__img-hold {
 }
